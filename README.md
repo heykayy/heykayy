@@ -2,7 +2,7 @@
 
 <!-- Hi animation with waving hand -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=2E86AB&center=true&vCenter=true&width=500&lines=Hi!+It's me, Malfoy+👋;Welcome+to+my+GitHub!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1200&color=2E86AB&center=true&vCenter=true&width=500&lines=Hi!+It's+me,+Malfoy +👋;Welcome+to+my+GitHub!" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -185,20 +185,15 @@ me.say_hi()
 
 <div align="center">
 
-####  Let's Connect & Build Something Amazing!
-
-<div align="center">
+### 💬 Let's Connect & Build Something Amazing!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kanishka-kumari-9762512b5)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kkanishka200459@gmail.com)
 
 <br/>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=00FF00&center=true&vCenter=true&width=500&lines=01001000+01101001+👋;Keep+Building+the+Future..." alt="Typing SVG" />
-</a>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=100&section=footer&animation=fade&text=End+of+Line&fontSize=20&fontColor=fff" width="100%"/>
+<!-- Animated farewell using capsule-render (reliable) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=BYE!!+BYE!!+👋&fontSize=22&fontColor=kkk&animation=twinkling" alt="Footer animation" width="100%"/>
 
 </div>
 
