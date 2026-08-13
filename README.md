@@ -8,21 +8,30 @@
 <!-- ░░ TYPING SVG ░░ -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=3CB371&center=true&vCenter=true&width=580&lines=Building+things+that+think+%F0%9F%A7%A0;Deepfakes+%E2%80%94+detecting+them%2C+not+making+them+%F0%9F%91%80;Sign+Language+%E2%80%94+99.23%25+accurate+%F0%9F%A4%9F;NLP+%E2%80%94+emotions+are+just+data+%F0%9F%8C%8A" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=3CB371&center=true&vCenter=true&width=650&lines=I+build+things+that+think+%F0%9F%A7%A0;Deepfakes+caught.+Models+trained.+Problems+solved.+%E2%9A%A1;Taught+a+machine+to+read+sign+language+%F0%9F%A4%9F;From+pixels+to+predictions+%E2%80%94+always+on+CPU+%F0%9F%92%BB" alt="Typing SVG"/>
   </a>
 </div>
 
 <br/>
 
-<!-- ░░ SNAKE — YOUR OWN CONTRIBUTION GRID ░░ -->
-<!-- NOTE: Run the GitHub Action below first so this branch exists -->
+<!-- ░░ SNAKE ░░ -->
+<!--
+  HOW TO ACTIVATE YOUR OWN SNAKE:
+  1. Commit the file .github/workflows/snake.yml (included in this download) to your heykayy/heykayy repo
+  2. Go to → Actions tab → "Generate Contribution Snake" → Run workflow
+  3. Wait ~30s for the action to push the SVGs to your `output` branch
+  4. The snake below will display YOUR commit heatmap automatically from then on
+     and refresh every 12 hours via the scheduled cron trigger
+-->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
             srcset="https://raw.githubusercontent.com/heykayy/heykayy/output/github-contribution-grid-snake-dark.svg"/>
     <source media="(prefers-color-scheme: light)"
             srcset="https://raw.githubusercontent.com/heykayy/heykayy/output/github-contribution-grid-snake.svg"/>
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/heykayy/heykayy/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+    <img alt="github-contribution-grid-snake"
+         src="https://raw.githubusercontent.com/heykayy/heykayy/output/github-contribution-grid-snake-dark.svg"
+         width="100%"/>
   </picture>
 </div>
 
@@ -45,13 +54,14 @@
 
 ## ⚡ About Me
 
-```class AIEngineer:
+```python
+class AIEngineer:
     def __init__(self):
-        self.name         = "Kanishka Kumari"
-        self.focus        = ["Deep Learning", "MLOps", "NLP", "Computer Vision"]
-        self.currently    = "🔨 Building Döppelganger (Deepfake Detection) & ConvoSense API"
-        self.learning     = ["LLM Fine-tuning", "Agentic AI", "Distributed ML Systems"]
-        self.fun_fact     = "I can talk to you in sign language (or build a model that does 🤟)"
+        self.name      = "Kanishka Kumari"
+        self.focus     = ["Deep Learning", "MLOps", "NLP", "Computer Vision"]
+        self.currently = "🔨 Building Döppelganger (Deepfake Detection) & ConvoSense API"
+        self.learning  = ["LLM Fine-tuning", "Agentic AI", "Distributed ML Systems"]
+        self.fun_fact  = "I can talk to you in sign language (or build a model that does 🤟)"
 
     def say_hi(self):
         print("Thanks for stopping by! Let's build something incredible together.")
@@ -68,27 +78,79 @@ me.say_hi()
 
 **Languages & Core**
 
-<img src="https://skillicons.dev/icons?i=python,postgres,sqlite,bash&theme=dark&perline=8"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=social&logo=python&logoColor=3776AB" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=social&logo=javascript&logoColor=F7DF1E" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/SQL-4479A1?style=social&logo=postgresql&logoColor=4479A1" height="32"/>
 
-**AI / ML / Deep Learning**
+**ML / DL Frameworks**
 
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn&theme=dark&perline=8"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=social&logo=pytorch&logoColor=EE4C2C" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=social&logo=tensorflow&logoColor=FF6F00" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=social&logo=scikitlearn&logoColor=F7931E" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=social&logo=opencv&logoColor=5C3EE8" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/🤗_HuggingFace-FFD21E?style=social" height="32"/>
 
-**Backend & APIs**
+**LLM / NLP**
 
-<img src="https://skillicons.dev/icons?i=fastapi,flask,docker&theme=dark&perline=8"/>
+<img src="https://img.shields.io/badge/Prompt_Engineering-3cb371?style=social" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Flan--T5-3cb371?style=social" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/RoBERTa-3cb371?style=social" height="32"/>
 
-**Cloud & DevOps**
+**MLOps / DevOps**
 
-<img src="https://skillicons.dev/icons?i=aws,gcp,terraform,linux,githubactions&theme=dark&perline=8"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=social&logo=docker&logoColor=2496ED" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/FastAPI-009688?style=social&logo=fastapi&logoColor=009688" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Flask-000000?style=social&logo=flask&logoColor=000000" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/CI/CD-2088FF?style=social&logo=githubactions&logoColor=2088FF" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/MLflow-0194E2?style=social&logo=mlflow&logoColor=0194E2" height="32"/>
 
-**Data & Visualization**
+**Cloud**
 
-<img src="https://skillicons.dev/icons?i=matplotlib&theme=dark&perline=8"/>
-&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Seaborn-3a6fa8?style=for-the-badge&logo=python&logoColor=white&labelColor=0a0f0a" height="50"/>
-&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white&labelColor=0a0f0a" height="50"/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=social&logo=amazonaws&logoColor=232F3E" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/GCP-4285F4?style=social&logo=googlecloud&logoColor=4285F4" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Render-000000?style=social&logo=render&logoColor=000000" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Vercel-000000?style=social&logo=vercel&logoColor=000000" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/🤗_Spaces-FFD21E?style=social" height="32"/>
+
+**Visualization**
+
+<img src="https://img.shields.io/badge/Tableau-E97627?style=social&logo=tableau&logoColor=E97627" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=social&logo=python&logoColor=11557C" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Seaborn-3776AB?style=social" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=social&logo=streamlit&logoColor=FF4B4B" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Gradio-F97316?style=social&logo=gradio&logoColor=F97316" height="32"/>
+
+**Databases**
+
+<img src="https://img.shields.io/badge/SQLite-003B57?style=social&logo=sqlite&logoColor=003B57" height="32"/>
+
+**Security Ops**
+
+<img src="https://img.shields.io/badge/Linux-FCC624?style=social&logo=linux&logoColor=FCC624" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/IDS-3cb371?style=social" height="32"/>
+&nbsp;
+<img src="https://img.shields.io/badge/SIEM-3cb371?style=social" height="32"/>
 
 </div>
 
@@ -97,44 +159,48 @@ me.say_hi()
 ## 🚀 Projects
 
 <details open>
-<summary><b>🤟 HandTalk-INDIA &nbsp;—&nbsp; Indian Sign Language Recognition</b> &nbsp; <code>Feb – Apr 2026</code></summary>
+<summary><b>🤟 HandTalk-INDIA &nbsp;—&nbsp; Indian Sign Language Translator</b> &nbsp; <code>Feb – Apr 2026 · Windows · CPU-only</code></summary>
 <br/>
 
-> **Word Mode**: MobileNetV2 at **99.23% accuracy** on letter-by-letter fingerspelling.<br/>
-> **Sentence Mode**: Conv1D-GRU sequence classifier at **84.77% accuracy** on full ISL phrases.<br/>
-> Fully offline on CPU at **25–30 fps** — no GPU required. Text-to-speech output bridges ISL signers and non-signers.
+> Real-time ISL recognition built with TensorFlow, MediaPipe, and OpenCV — runs fully offline on CPU at 25–30 fps. Co-authored with **komal05-web**.
+>
+> **Word Mode** uses a fine-tuned **MobileNetV2** (35 classes, 99.23% accuracy) with a 10-frame hold-timer and SentenceBuilder engine that matches output against a **50+ phrase ISL dictionary**. **Sentence Mode** feeds 45-frame MediaPipe Holistic sequences (258 landmarks/frame) into a **Conv1D → GRU** model (~85K params, 84.77% accuracy). All output is spoken via `pyttsx3`. Pretrained models on Hugging Face; standalone Windows `.exe` built via PyInstaller + GitHub Actions.
 >
 > 🔗 [heykayy/handTalk](https://github.com/heykayy/handTalk)
 
-`TensorFlow` `MobileNetV2` `Conv1D-GRU` `OpenCV` `Python`
+`TensorFlow` `MediaPipe` `MobileNetV2` `Conv1D-GRU` `OpenCV` `PyInstaller`
 
 </details>
 
 ---
 
 <details open>
-<summary><b>📄 ParseX &nbsp;—&nbsp; AI-Powered Document Analysis Tool</b> &nbsp; <code>Feb – Mar 2026</code></summary>
+<summary><b>📄 ParseX &nbsp;—&nbsp; Document Intelligence Tool</b> &nbsp; <code>Feb – Mar 2026 · Live</code></summary>
 <br/>
 
-> Two-model pipeline: **Flan-T5** handles summarization & question generation → **RoBERTa/SQuAD2** handles extractive answering. Supports JSON, TXT, PDF. Users control passage count, word limits, and Q&A density per passage.
+> Full-stack web app that ingests any document (PDF, DOCX, JSON, Markdown, CSV, TXT), extracts and cleans text through a multi-engine pipeline, then uses AI to generate structured summaries and Q&A pairs.
 >
-> 🔗 [heykayy/parseX](https://github.com/heykayy/parseX)
+> Provider-agnostic AI layer — switch between **Claude, Gemini, or GPT-4o** with one config line (Gemini is the production default). Large documents run through a **Map-Reduce pipeline** of overlapping 8 KB chunks. API keys stay server-side behind an Express proxy; users control summary length (100–1000 words) and Q&A count (3–20); export as JSON or TXT.
+>
+> 🔗 [heykayy/parseX](https://github.com/heykayy/parseX) &nbsp;·&nbsp; 🌐 [parse-x-snowy.vercel.app](https://parse-x-snowy.vercel.app)
 
-`Flan-T5` `RoBERTa` `SQuAD2` `HuggingFace` `Python`
+`React 18` `Vite` `Node.js` `Express` `PDF.js` `Claude · Gemini · GPT-4o` `Vercel · Render`
 
 </details>
 
 ---
 
 <details open>
-<summary><b>🃏 ScriptShade &nbsp;—&nbsp; AI Flashcard Quiz App</b> &nbsp; <code>Jan – Feb 2026</code></summary>
+<summary><b>🃏 ScriptShade &nbsp;—&nbsp; AI Flashcard & Quiz Platform</b> &nbsp; <code>Jan – Feb 2026 · Live · Full-Stack</code></summary>
 <br/>
 
-> Auto-generates quiz questions from any user-defined topic via the **OpenAI API** — zero manual entry. Interactive Tkinter GUI with real-time scoring, OOP architecture, and dynamic prompt engineering.
+> Full-stack quiz platform with real accounts, spaced repetition, and gamification — backed by a Turso database and a server-side AI proxy for Anthropic, OpenAI, and Gemini.
+>
+> A **Demo Mode** requires no account or key. Signed-in users get a **5-box Leitner spaced repetition** system, **XP + daily streaks**, and export to CSV, Anki `.txt`, or PDF. Auth uses JWT (30-day sessions + recovery codes); a separate `/developer` console handles account management. Self-hostable via Docker + nginx.
 >
 > 🔗 [heykayy/scriptShade](https://github.com/heykayy/scriptShade)
 
-`Python` `OpenAI API` `Tkinter` `OOP`
+`React 18` `Vite` `Node.js` `Express` `Turso (libSQL)` `JWT` `Anthropic · OpenAI · Gemini` `Vercel · Render`
 
 </details>
 
@@ -144,7 +210,7 @@ me.say_hi()
 <summary><b>🎭 Döppelganger &nbsp;—&nbsp; Deepfake Detection System</b> &nbsp; <code>2024 · In Development</code></summary>
 <br/>
 
-> Multimodal ensemble of **CNNs, LSTMs, and Vision Transformers** for robust deepfake feature extraction. Bayesian Networks + SVMs drive confident decision-making, backed by full-stack logging for reproducibility.
+> Multimodal ensemble of **CNNs, LSTMs, and Vision Transformers** for robust deepfake feature extraction. Bayesian Networks + SVMs for confident decision-making, with full-stack logging for reproducibility.
 
 `PyTorch` `TensorFlow` `Vision Transformers` `Bayesian Networks` `MLOps`
 
@@ -156,7 +222,7 @@ me.say_hi()
 <summary><b>🌊 ConvoSense &nbsp;—&nbsp; Emotion & Tone Analyzer API</b> &nbsp; <code>May 2026 · In Development</code></summary>
 <br/>
 
-> REST API classifying emotional tone (happy, angry, neutral…) from free-form text. **FastAPI** backend wired to a custom deep-learning NLP model — responds with tone label + confidence score in one call.
+> FastAPI REST endpoint that classifies emotional tone (happy, angry, neutral…) from free-form text using a custom deep-learning NLP model — returns label + confidence score in a single call.
 
 `FastAPI` `NLP` `Deep Learning` `Python`
 
@@ -213,7 +279,7 @@ me.say_hi()
     <img src="https://img.shields.io/badge/Gmail-0a0f0a?style=for-the-badge&logo=gmail&logoColor=3cb371"/>
   </a>
   <br/><br/>
-  <i style="color:#7fbb8a">"The best way to predict the future is to build it — one model at a time."</i>
+  <i>"The best way to predict the future is to build it — one model at a time."</i>
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f0a,40:1a472a,80:2e8b57,100:0a0f0a&height=140&section=footer&text=&fontColor=c9d8c5&animation=fadeIn&reversal=true" width="100%"/>
