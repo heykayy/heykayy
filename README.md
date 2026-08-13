@@ -14,15 +14,6 @@
 
 <br/>
 
-<!-- ░░ SNAKE ░░ -->
-<!--
-  HOW TO ACTIVATE YOUR OWN SNAKE:
-  1. Commit the file .github/workflows/snake.yml (included in this download) to your heykayy/heykayy repo
-  2. Go to → Actions tab → "Generate Contribution Snake" → Run workflow
-  3. Wait ~30s for the action to push the SVGs to your `output` branch
-  4. The snake below will display YOUR commit heatmap automatically from then on
-     and refresh every 12 hours via the scheduled cron trigger
--->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
@@ -38,16 +29,17 @@
 <br/>
 
 <!-- ░░ BADGES ░░ -->
-<div align="center">
-  <a href="https://www.linkedin.com/in/kanishka-kumari-9762512b5">
-    <img src="https://img.shields.io/badge/LinkedIn-Kanishka_Kumari-1a472a?style=flat-square&logo=linkedin&logoColor=3cb371&labelColor=0a0f0a"/>
-  </a>
-  &nbsp;
-  <a href="mailto:kkanishka200459@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-kkanishka200459-1a472a?style=flat-square&logo=gmail&logoColor=3cb371&labelColor=0a0f0a"/>
-  </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=heykayy&style=flat-square&color=1a472a&label=Profile+Views&labelColor=0a0f0a"/>
+
+<div align="center"> 
+  <a href="https://www.linkedin.com/in/kanishka-kumari-9762512b5"> 
+    <img src="https://img.shields.io/static/v1?label=&message=%20&color=1a472a&style=flat-square&logo=linkedin&logoColor=3cb371"/> 
+  </a> 
+  &nbsp; 
+  <a href="mailto:kkanishka200459@gmail.com"> 
+    <img src="https://img.shields.io/static/v1?label=&message=%20&color=1a472a&style=flat-square&logo=gmail&logoColor=3cb371"/> 
+  </a> 
+  &nbsp; 
+  <img src="https://komarev.com/ghpvc/?username=heykayy&style=flat-square&color=1a472a&label=Profile+Views&labelColor=0a0f0a"/> 
 </div>
 
 ---
@@ -96,14 +88,6 @@ me.say_hi()
 &nbsp;
 <img src="https://img.shields.io/badge/🤗_HuggingFace-FFD21E?style=social" height="32"/>
 
-**LLM / NLP**
-
-<img src="https://img.shields.io/badge/Prompt_Engineering-3cb371?style=social" height="32"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Flan--T5-3cb371?style=social" height="32"/>
-&nbsp;
-<img src="https://img.shields.io/badge/RoBERTa-3cb371?style=social" height="32"/>
-
 **MLOps / DevOps**
 
 <img src="https://img.shields.io/badge/Docker-2496ED?style=social&logo=docker&logoColor=2496ED" height="32"/>
@@ -118,8 +102,6 @@ me.say_hi()
 
 **Cloud**
 
-<img src="https://img.shields.io/badge/AWS-232F3E?style=social&logo=amazonaws&logoColor=232F3E" height="32"/>
-&nbsp;
 <img src="https://img.shields.io/badge/GCP-4285F4?style=social&logo=googlecloud&logoColor=4285F4" height="32"/>
 &nbsp;
 <img src="https://img.shields.io/badge/Render-000000?style=social&logo=render&logoColor=000000" height="32"/>
@@ -135,8 +117,6 @@ me.say_hi()
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=social&logo=python&logoColor=11557C" height="32"/>
 &nbsp;
 <img src="https://img.shields.io/badge/Seaborn-3776AB?style=social" height="32"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=social&logo=streamlit&logoColor=FF4B4B" height="32"/>
 &nbsp;
 <img src="https://img.shields.io/badge/Gradio-F97316?style=social&logo=gradio&logoColor=F97316" height="32"/>
 
@@ -159,14 +139,14 @@ me.say_hi()
 ## 🚀 Projects
 
 <details open>
-<summary><b>🤟 HandTalk-INDIA &nbsp;—&nbsp; Indian Sign Language Translator</b> &nbsp; <code>Feb – Apr 2026 · Windows · CPU-only</code></summary>
+<summary><b>🤟 HandTalk-INDIA &nbsp;—&nbsp; Indian Sign Language Translator</b> &nbsp; <code>Apr - July 2026 · Windows · Actively Maintained</code></summary>
 <br/>
 
 > Real-time ISL recognition built with TensorFlow, MediaPipe, and OpenCV — runs fully offline on CPU at 25–30 fps. Co-authored with **komal05-web**.
 >
 > **Word Mode** uses a fine-tuned **MobileNetV2** (35 classes, 99.23% accuracy) with a 10-frame hold-timer and SentenceBuilder engine that matches output against a **50+ phrase ISL dictionary**. **Sentence Mode** feeds 45-frame MediaPipe Holistic sequences (258 landmarks/frame) into a **Conv1D → GRU** model (~85K params, 84.77% accuracy). All output is spoken via `pyttsx3`. Pretrained models on Hugging Face; standalone Windows `.exe` built via PyInstaller + GitHub Actions.
 >
-> 🔗 [heykayy/handTalk](https://github.com/heykayy/handTalk)
+> 🔗 [Download](https://github.com/heykayy/handTalk/releases/tag/v1.0.4)
 
 `TensorFlow` `MediaPipe` `MobileNetV2` `Conv1D-GRU` `OpenCV` `PyInstaller`
 
@@ -175,32 +155,32 @@ me.say_hi()
 ---
 
 <details open>
-<summary><b>📄 ParseX &nbsp;—&nbsp; Document Intelligence Tool</b> &nbsp; <code>Feb – Mar 2026 · Live</code></summary>
-<br/>
-
-> Full-stack web app that ingests any document (PDF, DOCX, JSON, Markdown, CSV, TXT), extracts and cleans text through a multi-engine pipeline, then uses AI to generate structured summaries and Q&A pairs.
->
-> Provider-agnostic AI layer — switch between **Claude, Gemini, or GPT-4o** with one config line (Gemini is the production default). Large documents run through a **Map-Reduce pipeline** of overlapping 8 KB chunks. API keys stay server-side behind an Express proxy; users control summary length (100–1000 words) and Q&A count (3–20); export as JSON or TXT.
->
-> 🔗 [heykayy/parseX](https://github.com/heykayy/parseX) &nbsp;·&nbsp; 🌐 [parse-x-snowy.vercel.app](https://parse-x-snowy.vercel.app)
-
-`React 18` `Vite` `Node.js` `Express` `PDF.js` `Claude · Gemini · GPT-4o` `Vercel · Render`
-
-</details>
-
----
-
-<details open>
-<summary><b>🃏 ScriptShade &nbsp;—&nbsp; AI Flashcard & Quiz Platform</b> &nbsp; <code>Jan – Feb 2026 · Live · Full-Stack</code></summary>
+<summary><b>🃏 ScriptShade &nbsp;—&nbsp; AI Flashcard & Quiz Platform</b> &nbsp; <code>Feb – Aug 2026 · Live . Actively Maintained</code></summary>
 <br/>
 
 > Full-stack quiz platform with real accounts, spaced repetition, and gamification — backed by a Turso database and a server-side AI proxy for Anthropic, OpenAI, and Gemini.
 >
 > A **Demo Mode** requires no account or key. Signed-in users get a **5-box Leitner spaced repetition** system, **XP + daily streaks**, and export to CSV, Anki `.txt`, or PDF. Auth uses JWT (30-day sessions + recovery codes); a separate `/developer` console handles account management. Self-hostable via Docker + nginx.
 >
-> 🔗 [heykayy/scriptShade](https://github.com/heykayy/scriptShade)
+> 🌐 [Visit](https://scriptshade.vercel.app)
 
 `React 18` `Vite` `Node.js` `Express` `Turso (libSQL)` `JWT` `Anthropic · OpenAI · Gemini` `Vercel · Render`
+
+</details>
+
+---
+
+<details open>
+<summary><b>📄 ParseX &nbsp;—&nbsp; Document Intelligence Tool</b> &nbsp; <code>Mar – July 2026 · Live · Actively Maintained</code></summary>
+<br/>
+
+> Full-stack web app that ingests any document (PDF, DOCX, JSON, Markdown, CSV, TXT), extracts and cleans text through a multi-engine pipeline, then uses AI to generate structured summaries and Q&A pairs.
+>
+> Provider-agnostic AI layer — switch between **Claude, Gemini, or GPT-4o** with one config line (Gemini is the production default). Large documents run through a **Map-Reduce pipeline** of overlapping 8 KB chunks. API keys stay server-side behind an Express proxy; users control summary length (100–1000 words) and Q&A count (3–20); export as JSON or TXT.
+>
+> 🌐 [Visit](https://parse-x-snowy.vercel.app)
+
+`React 18` `Vite` `Node.js` `Express` `PDF.js` `Claude · Gemini · GPT-4o` `Vercel · Render`
 
 </details>
 
@@ -233,9 +213,9 @@ me.say_hi()
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=heykayy&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=0a0f0a&title_color=3cb371&text_color=c9d8c5&icon_color=2e8b57&border_color=1a472a" height="175"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=heykayy&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=0a0f0a&title_color=3cb371&text_color=c9d8c5&icon_color=2e8b57&border_color=1a472a" height="175"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=heykayy&layout=donut&hide_border=true&langs_count=7&bg_color=0a0f0a&title_color=3cb371&text_color=c9d8c5&border_color=1a472a" height="175"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=heykayy&layout=donut&hide_border=true&langs_count=7&bg_color=0a0f0a&title_color=3cb371&text_color=c9d8c5&border_color=1a472a" height="175"/>
 </div>
 
 <div align="center">
@@ -250,7 +230,7 @@ me.say_hi()
 
 | &nbsp; | Certificate | Issuer | Year |
 |:---:|---|---|:---:|
-| <img src="https://img.shields.io/badge/-G-4285F4?style=flat-square&logo=google&logoColor=white"/> | Business Intelligence | Google | 2024 |
+| <img src="https://githubusercontent.com" width="30" height="30" alt="Google logo"/> | Business Intelligence | Google | 2024 |
 | <img src="https://img.shields.io/badge/-G-4285F4?style=flat-square&logo=google&logoColor=white"/> | Cybersecurity Specialization | Google | 2024 |
 | <img src="https://img.shields.io/badge/-IBM-052FAD?style=flat-square&logo=ibm&logoColor=white"/> | Data Science & Artificial Intelligence | IBM | 2025 |
 | <img src="https://img.shields.io/badge/-IIT-FF6B00?style=flat-square"/> | Programming, DSA in Python | NPTEL – IIT Madras | 2024 |
@@ -260,26 +240,28 @@ me.say_hi()
 
 ---
 
-## 🐍 Beyond the Terminal
+## ⌛Off the clock
 
 ```
-🎨  Graphic Designer  ────  turning ideas into visuals
-📱  Social Media Manager  ─  building presence & narratives
+🖼   Visual & Technical Design  ──  architecture diagrams, flowcharts, thumbnails, logos
+🎮  Game QA & Critic            ──  breaking games on purpose, then writing about it
+🏷️  Data Annotation             ──  labeling the data models actually learn from
 ```
 
 ---
 
-<!-- ░░ FOOTER ░░ -->
-<div align="center">
-  <a href="https://www.linkedin.com/in/kanishka-kumari-9762512b5">
-    <img src="https://img.shields.io/badge/LinkedIn-0a0f0a?style=for-the-badge&logo=linkedin&logoColor=3cb371"/>
-  </a>
-  &nbsp;
-  <a href="mailto:kkanishka200459@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-0a0f0a?style=for-the-badge&logo=gmail&logoColor=3cb371"/>
-  </a>
-  <br/><br/>
-  <i>"The best way to predict the future is to build it — one model at a time."</i>
-</div>
+<!-- ░░ FOOTER ░░ --> 
+
+<div align="center"> 
+  <a href="https://www.linkedin.com/in/kanishka-kumari-9762512b5"> 
+    <img src="https://img.shields.io/static/v1?label=&message=%20&color=0a0f0a&style=for-the-badge&logo=linkedin&logoColor=3cb371"/> 
+  </a> 
+  &nbsp; 
+  <a href="mailto:kkanishka200459@gmail.com"> 
+    <img src="https://img.shields.io/static/v1?label=&message=%20&color=0a0f0a&style=for-the-badge&logo=gmail&logoColor=3cb371"/> 
+  </a> 
+  <br/><br/> 
+  <i>"The best way to predict the future is to build it — one model at a time."</i> 
+</div> 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f0a,40:1a472a,80:2e8b57,100:0a0f0a&height=140&section=footer&text=&fontColor=c9d8c5&animation=fadeIn&reversal=true" width="100%"/>
