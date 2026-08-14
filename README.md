@@ -32,11 +32,11 @@
 
 <div align="center"> 
   <a href="https://www.linkedin.com/in/kanishka-kumari-9762512b5"> 
-    <img src="https://img.shields.io/static/v1?label=&message=%20&color=1a472a&style=flat-square&logo=linkedin&logoColor=3cb371"/> 
+    <img src="https://img.shields.io/badge/LinkedIn-1a472a?style=flat-square&logo=linkedin&logoColor=3cb371&labelColor=0a0f0a"/> 
   </a> 
   &nbsp; 
   <a href="mailto:kkanishka200459@gmail.com"> 
-    <img src="https://img.shields.io/static/v1?label=&message=%20&color=1a472a&style=flat-square&logo=gmail&logoColor=3cb371"/> 
+    <img src="https://img.shields.io/badge/Gmail-1a472a?style=flat-square&logo=gmail&logoColor=3cb371&labelColor=0a0f0a"/> 
   </a> 
   &nbsp; 
   <img src="https://komarev.com/ghpvc/?username=heykayy&style=flat-square&color=1a472a&label=Profile+Views&labelColor=0a0f0a"/> 
@@ -230,11 +230,11 @@ me.say_hi()
 
 | &nbsp; | Certificate | Issuer | Year |
 |:---:|---|---|:---:|
-| <img src="https://githubusercontent.com" width="30" height="30" alt="Google logo"/> | Business Intelligence | Google | 2024 |
-| <img src="https://img.shields.io/badge/-G-4285F4?style=flat-square&logo=google&logoColor=white"/> | Cybersecurity Specialization | Google | 2024 |
-| <img src="https://img.shields.io/badge/-IBM-052FAD?style=flat-square&logo=ibm&logoColor=white"/> | Data Science & Artificial Intelligence | IBM | 2025 |
-| <img src="https://img.shields.io/badge/-IIT-FF6B00?style=flat-square"/> | Programming, DSA in Python | NPTEL – IIT Madras | 2024 |
-| <img src="https://img.shields.io/badge/-TCS-002A5C?style=flat-square"/> | Design Thinking | TATA Consultancy Services | 2023 |
+| <img src="https://img.shields.io/badge/oogle-4285F4?style=flat-square&logo=google&logoColor=white"/> | Business Intelligence | Google | 2024 |
+| <img src="https://img.shields.io/badge/oogle-4285F4?style=flat-square&logo=google&logoColor=white"/> | Cybersecurity Specialization | Google | 2024 |
+| <img src="https://img.shields.io/badge/IBM-052FAD?style=flat-square&logo=ibm&logoColor=white"/> | Data Science & Artificial Intelligence | IBM | 2025 |
+| <img src="https://img.shields.io/badge/IIT%20Madras-FF6B00?style=flat-square&logo=academia&logoColor=white"/> | Programming, DSA in Python | NPTEL – IIT Madras | 2024 |
+| <img src="https://img.shields.io/badge/TCS-002A5C?style=flat-square&logo=tata&logoColor=white"/> | Design Thinking | TATA Consultancy Services | 2023 ||
 
 </div>
 
@@ -254,11 +254,11 @@ me.say_hi()
 
 <div align="center"> 
   <a href="https://www.linkedin.com/in/kanishka-kumari-9762512b5"> 
-    <img src="https://img.shields.io/static/v1?label=&message=%20&color=0a0f0a&style=for-the-badge&logo=linkedin&logoColor=3cb371"/> 
+    <img src="https://img.shields.io/badge/LinkedIn-0a0f0a?style=for-the-badge&logo=linkedin&logoColor=3cb371"/> 
   </a> 
   &nbsp; 
   <a href="mailto:kkanishka200459@gmail.com"> 
-    <img src="https://img.shields.io/static/v1?label=&message=%20&color=0a0f0a&style=for-the-badge&logo=gmail&logoColor=3cb371"/> 
+    <img src="https://img.shields.io/badge/Gmail-0a0f0a?style=for-the-badge&logo=gmail&logoColor=3cb371"/> 
   </a> 
   <br/><br/> 
   <i>"The best way to predict the future is to build it — one model at a time."</i> 
