@@ -146,7 +146,7 @@ me.say_hi()
 >
 > **Word Mode** uses a fine-tuned **MobileNetV2** (35 classes, 99.23% accuracy) with a 10-frame hold-timer and SentenceBuilder engine that matches output against a **50+ phrase ISL dictionary**. **Sentence Mode** feeds 45-frame MediaPipe Holistic sequences (258 landmarks/frame) into a **Conv1D → GRU** model (~85K params, 84.77% accuracy). All output is spoken via `pyttsx3`. Pretrained models on Hugging Face; standalone Windows `.exe` built via PyInstaller + GitHub Actions.
 >
-> 🔗 [Download](https://github.com/heykayy/handTalk/releases/tag/v1.0.4)
+> 🔗 [Download](https://github.com/heykayy/handTalk/releases/tag/v1.0.6)
 
 `TensorFlow` `MediaPipe` `MobileNetV2` `Conv1D-GRU` `OpenCV` `PyInstaller`
 
